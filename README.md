@@ -1,4 +1,11 @@
-### Hi there 👋
+# SpringBoot-project-Meal Me 
+
+
+## 🏨 프로젝트 소개
+개개인의 식단에 맞춰 컨설팅 해주는 컨설팅사이트입니다.
+
+<br>
+
 
 <!--
 **higggu/higggu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
