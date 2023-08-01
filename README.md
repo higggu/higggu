@@ -1,124 +1,68 @@
-# SpringBoot-project-Meal Me 
+# MealMe🍖
+- 식단 기록 웹사이트
+- 사진 등록과 검색으로 쉽게 식단 세부정보 입력 가능
+- 차트로 볼 수 있는 내 식단 영양 정보
+- 각 분야 전문가에게 내 식단 컨설팅 신청
+- 건강식품 판매
 
 
-## 🖥️ 프로젝트 소개
-개개인의 식단에 맞춰 컨설팅 해주는 컨설팅사이트입니다.
-
+## 😋 프로젝트 소개
+- 내 식단을 기록하고 쉽게 식사에 대한 정보를 확인할 수 있는 플랫폼입니다.
+- 식단을 기록할때 식품의약품안전처의 "식품영양성분DB" api를 사용하여 이름으로 검색 후 식품 하나의 정확한 세부 데이터를 받아 올 수 있습니다.
+- 내 정보에 따라서 권장 칼로리를 알 수 있고 기록된 식단의 영양분을 차트로 확인할 수 있어 부족한 영양분에 대해 알 수 있습니다.
+- 기록된 식단을 쉽고 빠르게 컨설팅 받을 수 있습니다.
+- 나에게 필요한 식품을 쇼핑몰에서 구매할 수 있습니다.
 <br>
+
+
 ## 🕰️ 개발 기간
-* 22.06.26일 - 22.05.24일
+* 23.05.24일 - 23.07.24일
 
 
-### 🧑‍🤝‍🧑 맴버구성
- - 팀장  :  이제우 - 
- - 팀원1 : 이동재 - 
- - 팀원2 : 김예슬 - 
- - 팀원3 : 유정현 - 
- - 팀원4 : 정연제 - 
+## 🧑‍🤝‍🧑 맴버구성
+ - 팀장   : 이재우 - 헤더, 푸터, 사이드바, 퀵메뉴, 메인페이지, (개인/기업)로그인, 카카오로그인, 회원가입,
+            <br>비밀번호 찾기(메일전송), (개인/기업)회원정보 수정, 마이페이지, 식단 입력,
+            <br>쇼핑몰, 관리자로그인, DB테이블 설계, git관리, 발표 
+ - 부팀장 : 이동재 - 관리자 페이지(회원관리, 기업회원가입승인, 쇼핑몰 상품등록, 결제정보확인)
+ - 팀원1  : 김예슬 - 차트 페이지(오늘하루, 일간, 주간, 월간), 구매 목록, 리뷰작성, 리뷰 목록, 발표 PPT 제작
+ - 팀원2  : 유정현 - 컨설팅 읽기 및 답변, 답변 읽기
+ - 팀원3  : 정연재 - 기업리스트, 컨설팅 신청
 
 
-### ⚙️ 개발 환경
+## ⚙️ 개발 환경
 - `Java 11`
-- `JDK 11`
-- **Framework** : Springboot(2.x)
-- **Database** : Oracle DB(11xe)
+- `JDK 11.0.15`
+- **Database** : Oracle
 - **ORM** : Mybatis
 
 
-
-
 ## 📌 주요 기능
-#### 로그인 - <a href="https://github.com/chaehyuenwoo/SpringBoot-Project-MEGABOX/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5-%EC%86%8C%EA%B0%9C(Login)" >상세보기 - WIKI 이동</a>
-- DB값 검증
-- ID찾기, PW찾기
-- 로그인 시 쿠키(Cookie) 및 세션(Session) 생성
-#### 회원가입 - <a href="https://github.com/chaehyuenwoo/SpringBoot-Project-MEGABOX/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5-%EC%86%8C%EA%B0%9C(Member)" >상세보기 - WIKI 이동</a>
-- 주소 API 연동
-- ID 중복 체크
-#### 마이 페이지 - <a href="https://github.com/chaehyuenwoo/SpringBoot-Project-MEGABOX/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5-%EC%86%8C%EA%B0%9C(Member)" >상세보기 - WIKI 이동</a>
-- 주소 API 연동
-- 회원정보 변경
+### 메인 페이지 - <a href="" >상세보기 - WIKI 이동</a>
 
-#### 영화 예매 - <a href="https://github.com/chaehyuenwoo/SpringBoot-Project-MEGABOX/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5-%EC%86%8C%EA%B0%9C(%EC%98%81%ED%99%94-%EC%98%88%EB%A7%A4)" >상세보기 - WIKI 이동</a>
-- 영화 선택(날짜 지정)
-- 영화관 선택(대분류/소분류 선택) 및 시간 선택
-- 좌석 선택
-- 결제 페이지
-- 예매 완료
-#### 메인 페이지 - <a href="https://github.com/chaehyuenwoo/SpringBoot-Project-MEGABOX/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5-%EC%86%8C%EA%B0%9C(%EB%A9%94%EC%9D%B8-Page)" >상세보기 - WIKI 이동</a>
-- YouTube API 연동
-- 메인 포스터(영화) 이미지 슬라이드(CSS)
-#### 1대1문의 및 공지사항 - <a href="" >상세보기 - WIKI 이동</a> 
-- 글 작성, 읽기, 수정, 삭제(CRUD)
+### 로그인 
 
-#### 관리자 페이지 
-- 영화관 추가(대분류, 소분류)
-- 영화 추가(상영시간 및 상영관 설정)
+### 회원가입
+
+### 
+
+### 
+
+### 
+
+### 
 
 
 
-<!--
-**higggu/higggu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ 
 
 
-# Tech Stack :
-<div align="center">
+##  흐름도
+![마무리 페이지 흐름도 1 drawio](https://github.com/higggu/higggu/assets/126428422/81aa92de-cc62-4342-a8c4-7ef6b8ecaedb)
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)&nbsp;
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)   
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   
+![최신관리](https://github.com/higggu/higggu/assets/126428422/07e0b734-b310-40b1-a4a2-14158cc972dc)
 
-![SpringBoot](https://img.shields.io/badge/SpringBoot-%236DB33F.svg?style=for-the-badge&logo=SpringBoot&logoColor=white)&nbsp;
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white)   
+## ERD
+![ERD](https://github.com/higggu/higggu/assets/126428422/ac4a0bff-11a9-443e-9d7b-158675299618)
 
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)&nbsp;
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)      
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-# GitHub Stats
-<div align="center">
-  
-![higgggu's GitHub stats](https://github-readme-stats.vercel.app/api?username=higggu&theme=ocean_dark&show_icons=true)&nbsp;&nbsp;&nbsp;&nbsp; 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=higggu&layout=compact&theme=ocean_dark&langs_count=6&hide=jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats)
-  
-</div>
-
-<div align="right">
-  
-[![](https://visitcount.itsvg.in/api?id=CJH0120&icon=7&color=6)](https://visitcount.itsvg.in)
-   
-</div>
-
-<!--
-**higggu/higggu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
