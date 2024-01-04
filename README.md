@@ -36,4 +36,4 @@
 |Ordinal Number|Logo|Link|
 |------|---|---|
 |1st|![KakaoTalk_20230802_134713012](https://github.com/higggu/higggu/assets/126428422/644a16fc-c32c-4119-b38d-0f7c3f88bd1e) |https://github.com/higggu/mealme|
-|2nd| ![KakaoTalk_20231226_135056717](https://github.com/higggu/higggu/assets/126428422/443acba4-1ca1-4b96-94b2-aec734957dec)|https://github.com/SuperMiniBeans/Back|
+|2nd| ![KakaoTalk_20231226_135056717](https://github.com/higggu/higggu/assets/126428422/443acba4-1ca1-4b96-94b2-aec734957dec)|https://github.com/higggu/ShoppingBack|
